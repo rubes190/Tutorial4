@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tutorial4.SumTest" time="0.049" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tutorial4.SumTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\bin"/>
-    <property name="sun.java.command" value="C:\Users\rubyf\AppData\Local\Temp\surefire6029042283411077839\surefirebooter5744864717888155639.jar C:\Users\rubyf\AppData\Local\Temp\surefire6029042283411077839 2020-08-24T11-45-09_886-jvmRun1 surefire18365800129862666709tmp surefire_015637491083279536278tmp"/>
+    <property name="sun.java.command" value="C:\Users\rubyf\AppData\Local\Temp\surefire10546048751566757562\surefirebooter3983531948752599237.jar C:\Users\rubyf\AppData\Local\Temp\surefire10546048751566757562 2020-08-24T11-48-13_195-jvmRun1 surefire3064613234123710636tmp surefire_08278568716577799982tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rubyf\OneDrive\Desktop\Semester Two\Software Design\Tutorial 4\tutorialFour\target\test-classes;C:\Users\rubyf\OneDrive\Desktop\Semester Two\Software Design\Tutorial 4\tutorialFour\target\classes;C:\Users\rubyf\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\rubyf\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rubyf\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rubyf\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rubyf\AppData\Local\Temp\surefire6029042283411077839\surefirebooter5744864717888155639.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rubyf\AppData\Local\Temp\surefire10546048751566757562\surefirebooter3983531948752599237.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -55,9 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testSub" classname="tutorial4.SumTest" time="0.03">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <8> but was: <12>
-	at tutorial4.SumTest.testSub(SumTest.java:12)
-]]></failure>
-  </testcase>
+  <testcase name="testSub" classname="tutorial4.SumTest" time="0.02"/>
 </testsuite>
