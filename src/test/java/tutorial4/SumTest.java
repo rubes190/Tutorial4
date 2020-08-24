@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 
-public class TestCalc {
+public class SumTest {
 	@Test
-		 
-		   public void testAdd() {
-		   assertEquals(8, new Calc().add(4,4)); 
-		  }
 	
+	
+		public void testSub() {
+			assertEquals(8, new Calc().subtract(10,2) );
 		}
+}
